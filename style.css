@@ -1,0 +1,48 @@
+body {
+    background: url(arroyo\ burro\ beach\ santa\ barbara\ damian\ gadal\ 1280x642.jpg);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.input-container {
+    margin: 20px;
+}
+
+.inputBox {
+    margin-top: 8%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border: none;
+}
+
+.result {
+    margin: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+img {
+    max-width: 100px;
+    margin: 10px 0;
+}
+
+hr {
+    border: 1px solid #ccc;
+}
