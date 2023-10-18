@@ -8,7 +8,7 @@ button.addEventListener("click", function (event) {
   const city = input.value;
 
   axios
-    .get(`http://api.weatherapi.com/v1/current.json?key=b439b5fdb55a4bd0ba740105231710&q=${city}`)
+    .get(`https://api.weatherapi.com/v1/current.json?key=b439b5fdb55a4bd0ba740105231710&q=${city}`)
     .then((response) => {
       console.log(response.data);
       const item = response.data; 
