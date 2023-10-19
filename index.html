@@ -4,19 +4,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>weather</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ac6c404332.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
+    <img class="moon" src="18.10.2023_22.11.50_REC.png" alt="" srcset="">
 
-    <div class="input-container">
-        <input class="inputBox" type="text" placeholder="Enter City">
-        <button id="button">Get Weather</button>
-    </div>
+    <h1 class="weather">weather</h1>
+    <form class="form">
+        <div class="input-container">
+            <input type="text" class="inputBox" placeholder="Type here">
+            <button id="button" type="submit">Submit</button>
+        </div>
+    </form>
+
+
+
     <div class="result">
-       
+
     </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-icons">
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=100092541812255" class="social-icon">
+                    <i class="fa-brands fa-facebook fa-2x" style="color: #1877f2;"></i>
+                </a>
+                <a  target="_blank" href="https://twitter.com/HamzaAddx" class="social-icon">
+                    <i class="fa-brands fa-twitter fa-2x" style="color: #1da1f2;"></i>
+                </a>
+                <a  target="_blank" href="https://www.instagram.com/hamxa_addx/?next=%2F" class="social-icon">
+                    <i class="fa-brands fa-instagram fa-2x" style="color: #e1306c;"></i>
+                </a>
+                <a  target="_blank" href="https://www.linkedin.com/in/muhammad-hamza-480597279/" class="social-icon">
+                    <i class="fa-brands fa-linkedin fa-2x" style="color: #0077b5;"></i>
+                </a>
+            </div>
+            <div><p>Created by Hamxa-dev</p></div>
+        </div>
+    </footer>
+    
 
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <script src="app.js"></script>
